@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <style>
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    text-align:center;
+    margin-top:100px;
+}
+
+form{
+    background:white;
+    padding:20px;
+    width:300px;
+    margin:auto;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+   </style>
+</head>
+<body>
+
+<h2>User Registration</h2>
+
+<form method="POST">
+
+    Username:
+    <input type="text" name="username" required>
+
+    <br><br>
+
+    Password:
+    <input type="password" name="password" required>
+
+    <br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+
+<a href="/login">Login Here</a>
+
+</body>
+</html>
